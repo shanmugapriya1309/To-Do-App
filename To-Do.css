@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    width:100%;
+    height:100vh;
+    background-image:linear-gradient(to right,rgb(38, 38, 157),rgb(14, 2, 82));
+    padding:10px;
+    
+
+}
+#todo{
+    text-align: center;
+    margin-bottom: 25px;
+    
+}
+
+#container{
+    width:100%;
+    max-width:440px;
+    background-color: white;
+    margin:100px auto;
+    padding:30px 30px 70px;
+    border-radius: 10px;
+    user-select: none;
+    
+}
+#input{
+    
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(231, 241, 241);
+    border-radius: 30px;
+    padding-left:20px;
+}
+#input-field{
+    border: none;
+    outline: none;
+    flex-grow:1;
+    background-color: transparent;
+    margin: 10px;
+    font-weight: 10px;
+
+}
+button{
+    border: none;
+    outline: none;
+    background-color: orange;
+    font-size: 14px;
+    border-radius:30px;
+    color: white;
+    padding: 10px;
+    width: 80px;
+    
+
+}
+.list-container{
+    padding-top: 30px;
+}
+.list-container div{
+    padding-bottom: 10px;
+}
+ .task{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    
+} 
+
+
+.text{
+    flex-grow: 2;
+    padding-left:10px;
+    border:none;
+    outline:none;
+    
+}
+.del{
+    background-color: white;
+    font-weight: bold;
+    width: 40px;
+    color: rgb(50, 48, 48);
+}
